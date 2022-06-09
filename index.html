@@ -12,21 +12,21 @@
 
   <body>
     <div class="greenLayer">
-    <div id="header">Pixel Sketch</div>
-        <div class="main">
+      <div id="header">Pixel Sketch</div>
+      <div class="main">
         <div class="colors">
-            <button>Color Picker</button>
-            <button>Rainbow</button>
+          <button>Single Color Mode</button>
+          <button>Rainbow Mode</button>
+          <button id="eraser" draggable="false">Eraser</button>
         </div>
         <div class="squareContainer" draggable="false"></div>
         <div class="editing">
-            <button>Toggle Box Borders</button>
-            <button>Eraser</button>
-            <button>Clear</button>
-            <button>New Grid</button>
+          <button id="borders" draggable="false">Toggle Box Borders</button>
+          <button id="clear" draggable="false">Clear</button>
+          <button id="newGrid" draggable="false">New Grid</button>
         </div>
-        </div>
-        <div id="instructions">Click / Drag to Draw!</div>
-  </div>
+      </div>
+      <div id="instructions">Click / Drag to Draw!</div>
+    </div>
   </body>
 </html>
